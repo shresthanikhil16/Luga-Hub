@@ -1,0 +1,9 @@
+<html>
+<head>
+	<title>My page
+		</title>
+</head>
+<body>
+	I live in New York City
+</body>
+</html>
