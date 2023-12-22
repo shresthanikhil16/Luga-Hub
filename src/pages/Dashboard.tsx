@@ -5,7 +5,7 @@ import "../assets/css/Dashboard.css";
 
 const Dashboard: React.FC = () => {
     return (
-        <div className={"container"}>
+        <div className={"dashboard-container"}>
             <div className={"header"}>
 
                 <div className={"logo"}>
@@ -40,86 +40,378 @@ const Dashboard: React.FC = () => {
 
 
             </div>
-            <div className={"main1"}>
-                <img
+            <div className={"dashboard-body"}>
+                <div className={"dash1"}>
+                    <div className={"img-dash1"}>
+                        <img src={"images/first-home.png"}
+                             alt={"Home1"}
+                        />
 
-                    src={"images/home1.jpg"}
-                    alt="image1"
-                />
+                    </div>
+                    <div className={"product-dash1"}>
+                        <div className={"row1"}>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                        </div>
+                        <div className={"row2"}>
+                            <div className={"Product-Card"}>
+                                    <img src={"images/hoodie1.jpg"}
+                                         alt={"hoodie1"}
+                                    />
+                                    <h2>hoodie</h2>
+                                    <p>Rs.5000</p>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+
+
+                                </div>
+                                <div className={"Product-Card"}>
+                                    <img src={"images/hoodie1.jpg"}
+                                         alt={"hoodie1"}
+                                    />
+                                    <h2>hoodie</h2>
+                                    <p>Rs.5000</p>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+
+
+                                </div>
+                                <div className={"Product-Card"}>
+                                    <img src={"images/hoodie1.jpg"}
+                                         alt={"hoodie1"}
+                                    />
+                                    <h2>hoodie</h2>
+                                    <p>Rs.5000</p>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+
+
+                                </div>
+                                <div className={"Product-Card"}>
+                                    <img src={"images/hoodie1.jpg"}
+                                         alt={"hoodie1"}
+                                    />
+                                    <h2>hoodie</h2>
+                                    <p>Rs.5000</p>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+
+
+                                </div>
+                                <div className={"Product-Card"}>
+                                    <img src={"images/hoodie1.jpg"}
+                                         alt={"hoodie1"}
+                                    />
+                                    <h2>hoodie</h2>
+                                    <p>Rs.5000</p>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+
+
+                                </div>
+                                <div className={"Product-Card"}>
+                                    <img src={"images/hoodie1.jpg"}
+                                         alt={"hoodie1"}
+                                    />
+                                    <h2>hoodie</h2>
+                                    <p>Rs.5000</p>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+                                    <i className={"fa fa-star checked"}></i>
+
+
+                                </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div className={"dash2"}>
+                    <div className={"img-dash2"}>
+                        <img src={"images/modifiedhome.png"}
+                             alt={"home 6"}
+                        />
+
+                    </div>
+                    <div className={"product-dash2"}>
+                        <div className={"row3"}>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                        </div>
+                        <div className={"row4"}>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+                            <div className={"Product-Card"}>
+                                <img src={"images/hoodie1.jpg"}
+                                     alt={"hoodie1"}
+                                />
+                                <h2>hoodie</h2>
+                                <p>Rs.5000</p>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+                                <i className={"fa fa-star checked"}></i>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-            <div className={"main2"}>
-                <div className={"content"}>
-                    <img src={"images/hoodie2.jpg"}
-                         alt={"hoodie1"}/>
-                    <h3>Hoodies</h3>
-
-                    <p>Aawghy Fleece Lined Hoodies for Men Pullover Heavyweight Sherpa Lined Hoodie Winter Warm Mens Clothes Hooded Sweatshirt</p>
-                    <h6>Rs. 3,000</h6>
-                    <ul>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star"}></i></li>
-
-                    </ul>
-                    <button className={"buy-1"}>Buy Now</button>
-                </div>
-                <div className={"content"}>
-                    <img src={"images/jeans1.jpg"}
-                         alt={"jeans1"}/>
-                    <h3>Jeans</h3>
-
-                    <p>Beskie Men's Sherpa Lined Denim Jacket Button Down Classic Trucker Jackets Warm Casual Quilted Jeans Coats Outerwear</p>
-                    <h6>Rs. 3,999</h6>
-                    <ul>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star"}></i></li>
-                        <li><i className={"fa fa-star"}></i></li>
-
-                    </ul>
-                    <button className={"buy-2"}>Buy Now</button>
-                </div>
-                <div className={"content"}>
-                    <img src={"images/airforce1.jpg"}
-                         alt={"airforce"}/>
-                    <h3>Shoes</h3>
-
-                    <p>Nike mens Air Force 1 '07</p>
-                    <h6>Rs. 6,000</h6>
-                    <ul>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star"}></i></li>
-
-                    </ul>
-                    <button className={"buy-3"}>Buy Now</button>
-                </div>
-                <div className={"content"}>
-                    <img src={"images/jogger.jpg"}
-                         alt={"jogger"}/>
-                    <h3>Joggers</h3>
-
-                    <p>Hanes EcoSmart Jogger Sweatpants, Men's Midweight Fleece Lounge Pants, 30.5"</p>
-                    <h6>Rs. 2,000</h6>
-                    <ul>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star checked"}></i></li>
-                        <li><i className={"fa fa-star"}></i></li>
-                        <li><i className={"fa fa-star"}></i></li>
-
-                    </ul>
-                    <button className={"buy-4"}>Buy Now</button>
-                </div>
-
-                {/*<h1>Featured Items</h1>*/}
-            </div>
-
             <div className={"footer"}>
                 <div className={"get-help"}>
                     <h1>GET HELP</h1>
@@ -147,7 +439,7 @@ const Dashboard: React.FC = () => {
                         width={30}
                         src={"images/fb.png"}
                         alt="fb"
-                        />
+                    />
                     <img
                         width={31}
                         src={"images/insta.png"}
@@ -164,6 +456,7 @@ const Dashboard: React.FC = () => {
 
             </div>
         </div>
+
 
     );
 };

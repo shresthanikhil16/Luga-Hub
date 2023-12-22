@@ -1,7 +1,7 @@
-.dashboard-container{background: white;height:100%; width:100vw;overflow-x: hidden;}
+.careers-container{background: white;height:100%; width:100vw;overflow-x: hidden;}
 
 
-.dashboard-container .header{
+.careers-container .header{
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -87,7 +87,7 @@
 .btn_before button i {
     font-size: 20px; /* Adjust the font size of the icon */
     margin-right: 5px;}/* Add spacing between the icon and text */
-.dashboard-container .footer{
+.careers-container .footer{
 
 
     display: flex;
@@ -164,161 +164,19 @@
     cursor: pointer;
 }
 
-.dashboard-body {
-    height: 380vh;
+.about-us-body {
+    height: 70%;
     background-color: lightgray;
-}
-
-.dash1{
-    height: 190vh;
-    background-color: lightgray;
-}
-
-.dash2{
-    height: 190vh;
-    background-color: lightgray;
-}
-.img-dash1 {
-    max-width: 100%;
-    height: 80vh;
-    background-color: lightgray;
-    /*object-fit: contain;*/
-
-}
-.img-dash1 img {
-    padding-left: 5%;
-    padding-top: 20px;
-    width: 90%;
-    height: 75vh;
-}
-.img-dash2 {
-    max-width: 100%;
-    height: 80vh;
-    background-color: lightgray;
-    /*object-fit: contain;*/
-
-}
-.img-dash2 img {
-    padding-left: 5%;
-    padding-top: 20px;
-    width: 90%;
-    height: 75vh;
-}
-/*    object-fit: fill;*/
-/*}*/
-.product-dash1{
-    height: 110vh;
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-
-
-    background-color: lightgray;
-}
-.product-dash1 .row1 {
-    display: flex;
-    height:50vh;
-     width:90%;
-    background-color: lightgray;
-    margin-left: 5%;
-}
-.Product-Card img {
-    height: 65%;
-    width: 100% ;
-}
-.row1{
-    display: flex;
-    column-gap: 50px;
-}
-.Product-Card{
-    background-color: white;
     color: black;
-    width: 100%;
+    padding: 70px;
 
 }
-.Product-Card h2{
-    margin-left: 20px;
+.about-us-body h1{
+    font-size: 30px;
 }
-.Product-Card p{
-    margin-left: 20px;
-}
-.Product-Card i{
-
-    color: darkgoldenrod;
-}
-.product-dash1 .row2 {
-    display: flex;
-    height: 50vh;
-    width: 90%;
-    background-color: lightgray;
-    margin-left: 5%;
-}
-
-.row2 {
-    display: flex;
-    column-gap: 50px;
-}
-.product-dash2{
-    height: 110vh;
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-
-
-    background-color: lightgray;
-}
-.product-dash2 .row3 {
-    display: flex;
-    height:50vh;
-    width:90%;
-    background-color: lightgray;
-    margin-left: 5%;
-}
-
-.row3{
-    display: flex;
-    column-gap: 50px;
+.about-us-body p{
+    font-size: 20px;
 }
 
 
-
-.product-dash2 .row3 {
-    display: flex;
-    height: 50vh;
-    width: 90%;
-    background-color: lightgray;
-    margin-left: 5%;
-}
-
-.row3 {
-    display: flex;
-    column-gap: 50px;
-}
-.product-dash2 .row4{
-    display: flex;
-    height:50vh;
-    width:90%;
-    background-color: lightgray;
-    margin-left: 5%;
-}
-
-.row4{
-    display: flex;
-    column-gap: 50px;
-}
-
-
-
-.product-dash2 .row4 {
-    display: flex;
-    height: 50vh;
-    width: 90%;
-    background-color: lightgray;
-    margin-left: 5%;
-}
-
-.row4 {
-    display: flex;
-    column-gap: 50px;
-}
 

@@ -1,48 +1,54 @@
-import React, { useState } from 'react';
+
+import "../assets/css/Login.css";
+// import React from "react";
+import React from "react";
+
+import { Link } from "react-router-dom";
 
 const Login: React.FC = () => {
-    const [username, setUsername] = useState<string>('');
-    const [password, setPassword] = useState<string>('');
 
-    const handleLogin = (e: React.FormEvent) => {
-        e.preventDefault();
-        console.log('Username:', username);
-        console.log('Password:', password);
-
-    };
 
     return (
-        <div style={{ backgroundColor: 'lightcoral', padding: '20px', borderRadius: '8px', maxWidth: '300px', margin: 'auto', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-            <h2 style={{ textAlign: 'center' }}>Login</h2>
-            <form onSubmit={handleLogin}>
-                <label htmlFor="username">Username:</label>
-                <br />
-                <input
-                    type="text"
-                    id="username"
-                    name="username"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                    required
-                    style={{ width: '100%', padding: '8px', marginBottom: '16px', boxSizing: 'border-box', border: '1px solid #ccc', borderRadius: '4px' }}
-                />
-                <br />
+        <div className={"login-container"}>
+            <div className={"login-form"}>
+                <div className={"header1"}>
+                    <div className={"login-logo"}>
+                        <img
+                            src={"images/logo1.png"}
+                            alt={"logo"}
+                        />
+                    </div>
+                    <div className={"log-in"}>
+                        <h1>Login</h1>
+                    </div>
+                </div>
 
-                <label htmlFor="password">Password:</label>
-                <br />
-                <input
-                    type="password"
-                    id="password"
-                    name="password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                    style={{ width: '100%', padding: '8px', marginBottom: '16px', boxSizing: 'border-box', border: '1px solid #ccc', borderRadius: '4px' }}
-                />
-                <br />
+                <div className={"inputs"}>
+                    <div className={"input"}>
+                        <input type={"text"} placeholder={"Username"} />
+                        <i className="fa-solid fa-user"></i>
+                    </div>
 
-                <button type="submit" style={{ background: 's', color: '#fff', padding: '10px', border: 'none', borderRadius: '4px', cursor: 'pointer', width: '100%' }}>Login</button>
-            </form>
+                    <div className={"input"}>
+                        <input type={"password"} placeholder={"Password"} />
+                        <i className="fa-solid fa-lock"></i>
+                    </div>
+                </div>
+                <div className="remember-forgot">
+                    <label>
+                        <input type="checkbox" name="remember_me" /> Remember me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <div className={"submitbtn"}>
+                    <div className={"btn"}>
+                        <button>Login</button>
+                    </div>
+                    <div className={"register-link"}>
+                        Don't have an account? <Link to="/register">Register</Link>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

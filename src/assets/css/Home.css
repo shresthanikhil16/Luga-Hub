@@ -1,7 +1,7 @@
-.container{background: white;height:100%; width:100vw;overflow-x: hidden;}
+.home-container{background: white;height:100%; width:100vw;overflow-x: hidden;}
 
 
-.container .header{
+.home-container .header{
     display:flex;
     justify-content: space-between;
     position: sticky;
@@ -17,7 +17,7 @@
     margin-top: -25px; /* Add top margin for spacing, adjust as needed */
 }
 
-.container .main1{
+.home-container .main1{
     display: flex;
 
     /*width: 100%;*/
@@ -38,7 +38,7 @@
 }
 
 
-.container .main2{
+.home-container .main2{
 
     display: flex;
     /*flex-wrap: wrap;*/
@@ -52,15 +52,7 @@
     font-size: 10px;
     font-weight: bold;
 }
-/*.content{*/
-/*    width:20%;*/
-/*    margin: 15px;*/
-/*    box-sizing: border-box;*/
-/*    float: left;*/
-/*    text-align: center;*/
-/*    border-radius: 20px;*/
-/*    cursor: pointer;*/
-/*}*/
+
 h3{
     text-align: center;
     font-size: 30px;
@@ -87,12 +79,9 @@ ul{
 }
 
 
-/*.container .main1{*/
-/* flex-grow: 1;*/
-/*    background: #d8d8d8;*/
-/*}*/
 
-.container .main1 h1 {
+
+.home-container .main1 h1 {
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -117,10 +106,7 @@ ul{
     outline: none;
 
 }
-/*.searchbar input:focus {*/
-/*    !*outline: none; !* Remove the default focus outline if needed *!*!*/
-/*    border: 2px solid black; !* Border color when input is in focus *!*/
-/*}*/
+
 .searchbar input::placeholder {
     color: black; /* Change the color of the placeholder text */
     font-size: 16px; /* Adjust the font size of the placeholder text */
@@ -168,36 +154,7 @@ ul{
 .btn_before button i {
     font-size: 20px; /* Adjust the font size of the icon */
     margin-right: 5px;}/* Add spacing between the icon and text */
-
-
-
-
-
-/*.container .main .main-right{*/
-/*    flex-grow: 4;*/
-/*    background: blue;*/
-/*    width: 100%;*/
-/*}*/
-/*.container .header .searchbar{*/
-/*    width: 100%;*/
-/*    height:100% ;*/
-/*    !* background: transparent; *!*/
-
-/*    outline: none;*/
-/*    border: 2px solid grey;*/
-/*    border-radius: 40px;*/
-/*    font-size:16px ;*/
-/*    color: black;*/
-/*    padding: 20px 60px 30px 20px;*/
-/*    text-indent: 10px;*/
-/*    transform: translateY(5px);*/
-
-/*}*/
-/*.container .header .searchbar:focus,*/
-/*.container .header .searchbar:hover {*/
-/*    border-color: black; !* Change the border color when the input is focused or hovered *!*/
-/*}*/
-.container .footer{
+.home-container .footer{
 
 
     display: flex;
