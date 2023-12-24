@@ -1,0 +1,67 @@
+/* Sidebar.css */
+.container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    background: black;
+    color: #fff;
+    height: 180vh;
+    width: 100px;
+    transition: width 0.5s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    transition: background 0.5s;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  .menu-item:hover {
+    background: #d2d4dc;
+    color: #000;
+  }
+  
+  .menu-item .icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .menu-item .link_text {
+    font-size: 14px;
+  }
+  
+  .active {
+    background: #c0c2ce;
+    color: #000;
+  }
+  
+  .menu-item {
+    color: black;
+    font-family: 'Hans Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
