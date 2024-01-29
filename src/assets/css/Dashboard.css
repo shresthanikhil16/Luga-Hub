@@ -1,0 +1,324 @@
+.dashboard-container{background: white;height:100%; width:100vw;overflow-x: hidden;}
+
+
+.dashboard-container .header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    height:10%;
+    background: white;
+
+
+}
+.logo img {
+    width:120%; /* Set the desired width of the logo */
+    height: 140%; /* Maintain aspect ratio */
+    margin-top: -50px; /* Add top margin for spacing, adjust as needed */
+
+}
+
+.searchbar {
+    flex-grow: 1; /* Allow the search bar to take up remaining space */
+    margin-left: 15px;
+    /* Adjust the left margin for spacing, change as needed */
+}
+
+
+.searchbar input {
+    width: 100%; /* Take up 100% of the available width within .searchbar */
+    padding: 10px; /* Add padding for better visual appearance, adjust as needed */
+    box-sizing: border-box;
+    margin-top: 18px;
+    background-color: white; /* Include padding in the width calculation */
+    color: black;
+    border-radius:40px ;
+    font-size: 16px;
+    border: 2px solid black;
+    outline: none;
+
+}
+
+.searchbar input::placeholder {
+    color: black; /* Change the color of the placeholder text */
+    font-size: 16px; /* Adjust the font size of the placeholder text */
+}
+
+.btn-wrapper button {
+    margin-left: 10px;
+    background-color:white;
+    color: black;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+.search_button button{
+    margin-left:-43px;
+    margin-top: 23px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding:5px;
+    border: none;
+
+}
+.search_button i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px;}/* Add spacing between the icon and text */
+.btn-wrapper button i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px; /* Add spacing between the icon and text */
+}
+.btn_before button {
+    margin-left: 10px;
+    background-color:white;
+    color: black;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+.btn_before button i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px;}/* Add spacing between the icon and text */
+.dashboard-container .footer{
+
+
+    display: flex;
+    height:40% ;
+    background: black;
+    /*margin-top: 20px;*/
+    font-size: 5px;
+    /*align-items: flex-end;*/
+    justify-content: space-around;
+
+}
+.footer .get-help{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35px;
+
+
+}
+.footer .about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -35px;
+
+}
+.footer .logos{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+
+}
+.logos img{
+    padding: 8px}
+.get-help button{
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+
+}
+.get-help button:hover {
+    color: white; /* Change to the desired color on hover */
+}
+.get-help span{
+    font-size: 13px;
+    margin-top: 15px;
+    /*padding-bottom: -50px;*/
+    /*margin-bottom: -60px;*/
+
+
+}
+.about-us button{
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+
+}
+.about-us button:hover {
+    color: white; /* Change to the desired color on hover */
+}
+
+
+.logos span{
+    font-size: 16px;
+
+}
+
+.logos img{
+    cursor: pointer;
+}
+
+.dashboard-body {
+    height: 380vh;
+    background-color: lightgray;
+}
+
+.dash1{
+    height: 190vh;
+    background-color: lightgray;
+}
+
+.dash2{
+    height: 190vh;
+    background-color: lightgray;
+}
+.img-dash1 {
+    max-width: 100%;
+    height: 80vh;
+    background-color: lightgray;
+    /*object-fit: contain;*/
+
+}
+.img-dash1 img {
+    padding-left: 5%;
+    padding-top: 20px;
+    width: 90%;
+    height: 75vh;
+}
+.img-dash2 {
+    max-width: 100%;
+    height: 80vh;
+    background-color: lightgray;
+    /*object-fit: contain;*/
+
+}
+.img-dash2 img {
+    padding-left: 5%;
+    padding-top: 20px;
+    width: 90%;
+    height: 75vh;
+}
+/*    object-fit: fill;*/
+/*}*/
+.product-dash1{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+
+    background-color: lightgray;
+}
+.product-dash1 .row1 {
+    display: flex;
+    height:50vh;
+     width:90%;
+    background-color: lightgray;
+    margin-left: 5%;
+}
+.Product-Card img {
+    height: 65%;
+    width: 100% ;
+}
+.row1{
+    display: flex;
+    column-gap: 50px;
+}
+.Product-Card{
+    background-color: white;
+    color: black;
+    width: 100%;
+
+}
+.Product-Card h2{
+    margin-left: 20px;
+}
+.Product-Card p{
+    margin-left: 20px;
+}
+.Product-Card i{
+
+    color: darkgoldenrod;
+}
+.product-dash1 .row2 {
+    display: flex;
+    height: 50vh;
+    width: 90%;
+    background-color: lightgray;
+    margin-left: 5%;
+}
+
+.row2 {
+    display: flex;
+    column-gap: 50px;
+}
+.product-dash2{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+
+    background-color: lightgray;
+}
+.product-dash2 .row3 {
+    display: flex;
+    height:50vh;
+    width:90%;
+    background-color: lightgray;
+    margin-left: 5%;
+}
+
+.row3{
+    display: flex;
+    column-gap: 50px;
+}
+
+
+
+.product-dash2 .row3 {
+    display: flex;
+    height: 50vh;
+    width: 90%;
+    background-color: lightgray;
+    margin-left: 5%;
+}
+
+.row3 {
+    display: flex;
+    column-gap: 50px;
+}
+.product-dash2 .row4{
+    display: flex;
+    height:50vh;
+    width:90%;
+    background-color: lightgray;
+    margin-left: 5%;
+}
+
+.row4{
+    display: flex;
+    column-gap: 50px;
+}
+
+
+
+.product-dash2 .row4 {
+    display: flex;
+    height: 50vh;
+    width: 90%;
+    background-color: lightgray;
+    margin-left: 5%;
+}
+
+.row4 {
+    display: flex;
+    column-gap: 50px;
+}
+

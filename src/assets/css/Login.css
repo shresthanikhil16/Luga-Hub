@@ -1,0 +1,183 @@
+.login-container {
+    height: 100vh; /* Adjust the height as needed */
+    width: 100vw; /* Adjust the width as needed */
+    background-image: url("images/bg1.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*background-attachment: fixed;*/
+    background-size: cover;
+
+}
+.login-logo img {
+    width: 34%; /* Adjust the value as needed to decrease the width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    width: 29%;
+    background-color: rgba(255, 255, 255, 0.1); /* 0.7 is the alpha channel, adjust as needed */
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.log-in h1 {
+    font-size: 35px; /* Adjust the value as needed for the font size */
+    color: white;   /* Set the color to black */
+    font-weight: bold; /* Make the text bold */
+}
+.log-in {
+    text-align: left;
+}
+.log-in {
+    margin-left: 175px; /* Adjust the value as needed to move it left */
+    text-align: left;
+    margin-top: -100px;
+
+}
+.inputs .input{
+    position: relative;
+    width: 110%;
+    height: 5px;
+    margin: -20px 0 90px -50px;
+
+}
+.input input{
+    width: 100%;
+    height:100% ;
+    background: transparent;
+
+
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size:16px ;
+    color: black;
+    padding: 20px 60px 30px 20px;
+    text-indent: 10px;
+    transform: translateY(5px);
+}
+.input input::placeholder{
+    color: black;
+    text-indent: 10px;
+    transform: translateY(5px);
+
+
+
+}
+.input input:focus,
+.input input:hover {
+    border-color:black; /* Change the border color when the input is focused or hovered */
+
+}
+.input i {
+    position: absolute;
+    top: 24px; /* Adjust the value as needed to move it above */
+    right: 225px; /* Adjust the value as needed for horizontal positioning */
+}
+/*.remember-forgot{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*}*/
+.remember-forgot a {
+    color: white;
+
+
+}
+.remember-forgot a:hover {
+    color: black; /* Change color on hover */
+}
+/* .remember-forgot{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    font-size:14px ;*/
+/*    margin: -10px 0 15px;*/
+/*}*/
+/*.remember-forgot label input{*/
+/*    accent-color:black;*/
+/*    margin-right: 3px;*/
+
+/*}*/
+.remember-forgot label {
+    margin-right: 65px;
+    /*margin-bottom: 10px;*/
+
+}
+.remember-forgot {
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+/*.remember-forgot label {*/
+/*    margin-bottom: -10px;*/
+/*}*/
+/*.Loginbtn button{*/
+/*    width: 100%;*/
+/*    height:45px ;*/
+/*    background:black;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    border-radius: 40px;*/
+/*    box-shadow: 0 0 10px rgba(0,0,0,.2);*/
+/*    cursor: pointer;*/
+/*    font-size: 20px;*/
+/*    color: white;*/
+/*    font-weight: 600;*/
+
+
+
+
+/*}*/
+
+.btn button{
+    width: 150%;
+    height:55px ;
+    background:black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: -25%;
+    /*display: flex;*/
+    /*align-items: center;*/
+
+
+
+
+}
+.btn button:hover {
+    background-color: grey; /* Change to your desired hover color */
+}
+.register-link a {
+    color:white;
+
+}
+.register-link a:hover {
+    color:black;
+
+}
+
+
+
+
+/*.footer{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: white;*/
+
+
+
+
+
